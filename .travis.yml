@@ -1,0 +1,8 @@
+language: ruby
+
+rvm:
+  - 2.1.2
+before_install:
+  - psql -c 'create database canary_crm_test;' -U postgres
+addons:
+  postgresql: '9.3'
