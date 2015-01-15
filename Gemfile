@@ -42,6 +42,9 @@ gem 'foreman'
 
 gem 'unicorn'
 
+gem 'devise'
+gem 'activeadmin', github: 'activeadmin'
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
